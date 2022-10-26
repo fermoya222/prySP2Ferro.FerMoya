@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFerroCalculo));
             this.lblDias = new System.Windows.Forms.Label();
             this.lblDistancia = new System.Windows.Forms.Label();
             this.mrcCostos = new System.Windows.Forms.GroupBox();
@@ -152,6 +153,7 @@
             this.Controls.Add(this.mrcCostos);
             this.Controls.Add(this.lblDistancia);
             this.Controls.Add(this.lblDias);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmFerroCalculo";
             this.Text = "Ferro - Calculo";
             this.mrcCostos.ResumeLayout(false);
